@@ -19,7 +19,7 @@ a {
   justify-content: space-between;
   align-items: center;
   background-color: #2b2b33;
-  box-shadow: 0px 4px 4px black;
+  box-shadow: 0px 4px 4px #0000005c;
 }
 
 .navbar .logo {
@@ -133,10 +133,11 @@ main img {
 
 section {
   padding: 15px;
-  width: 100%;
-  box-shadow: 0px 4px 10px black;
+  width: 90%;
+  box-shadow: 0px 4px 10px #0000005c;
   background-color: #313138;
   margin-bottom: 50px;
+  border-radius: 10px;
 }
 
 .categories section p {
@@ -167,7 +168,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: black;
+  background-color: #161616;
   padding: 1em;
   margin: -8px;
   font-size: medium;
@@ -177,7 +178,7 @@ footer {
   font-family: "Config Rounded";
   font-style: normal;
   font-weight: normal;
-  src: url(./config-rounded.otf) format("opentype");
+  src: url("/6738d80638f0020962e0e5807e861dc103866969/6d6ef/config-rounded.otf") format("opentype");
 }
 
 @media (max-width: 510px) {
