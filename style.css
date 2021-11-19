@@ -178,7 +178,7 @@ footer {
   font-family: "Config Rounded";
   font-style: normal;
   font-weight: normal;
-  src: url("/6738d80638f0020962e0e5807e861dc103866969/6d6ef/config-rounded.otf") format("opentype");
+  src: url("./config-rounded.otf") format("opentype");
 }
 
 @media (max-width: 510px) {
