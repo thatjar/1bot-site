@@ -97,6 +97,11 @@
     transform: translateY(-2px);
   }
 
+  #add-1bot:active {
+    transform: translateY(2px);
+    box-shadow: none;
+  }
+
   .features {
     display: flex;
     flex-wrap: wrap;
