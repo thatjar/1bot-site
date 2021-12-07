@@ -4,7 +4,6 @@
 
   const handleMobileIconClick = () => {
     showMobileMenu = !showMobileMenu;
-    console.log(showMobileMenu);
   };
 
   const mediaQueryHandler = e => {

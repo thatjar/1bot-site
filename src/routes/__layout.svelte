@@ -21,13 +21,18 @@
   </PageTransition>
 
   <footer>
-    <h1 class="config">LINKS</h1>
+    <main>
+      <h1 class="config">LINKS</h1>
+      <div>
+        <a href="/commands">Command List</a>
+        <a href="https://top.gg/bot/884080176416309288/vote">Upvote</a>
+        <a href="https://discord.gg/JGcnKxEPsW">Support Server</a>
+        <a href="https://github.com/opensourze/1bot">GitHub</a>
+      </div>
+    </main>
 
-    <div>
-      <a href="/commands">Command List</a>
-      <a href="https://top.gg/bot/884080176416309288/vote">Upvote</a>
-      <a href="https://discord.gg/JGcnKxEPsW">Support Server</a>
-      <a href="https://github.com/opensourze/1bot">GitHub</a>
-    </div>
+    <section>
+      <h6>&copy; 2021 OpenSourze</h6>
+    </section>
   </footer>
 </main>

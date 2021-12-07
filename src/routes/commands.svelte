@@ -247,6 +247,18 @@
           usage: "lyrics {query}",
           aliases: "ly",
         },
+        {
+          name: "Fahrenheit to Celsius",
+          description: "Converts a temperature from Fahrenheit to Celsius.",
+          usage: "fahrenheittocelsius {temperature}",
+          aliases: "ftoc, f2c",
+        },
+        {
+          name: "Celsius to Fahrenheit",
+          description: "Converts a temperature from Celsius to Fahrenheit.",
+          usage: "celsiustofahrenheit {temperature}",
+          aliases: "ctof, c2f",
+        },
       ],
     },
     {
@@ -255,7 +267,7 @@
         {
           name: "Discord Together",
           description:
-            "You will need to be inside a voice channel for this to work. This command starts a Discord Together game inside the current voice channel.<br />A list of all supported games can be found by running /discord-together or 1help discordtogether.",
+            "(CURRENTLY DISABLED - this command will be re-enabled soon.) You will need to be inside a voice channel for this to work. This command starts a Discord Together game inside the current voice channel.<br />A list of all supported games can be found by running /discord-together or 1help discordtogether.",
           usage: "discordtogether {game}",
           aliases: "dtogether",
         },
