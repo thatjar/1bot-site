@@ -32,7 +32,7 @@
     </main>
 
     <section>
-      <h6>&copy; 2021 OpenSourze</h6>
+      <h5>&copy; 2021 OpenSourze</h5>
     </section>
   </footer>
 </main>

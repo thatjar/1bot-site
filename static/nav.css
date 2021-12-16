@@ -96,7 +96,7 @@ nav a {
 
 .navbar-list.active {
   background-color: #1c1d24;
-  box-shadow: 2px 0px 5px #1c1d24;
+  box-shadow: 2px 0 5px #1c1d24;
   position: fixed;
   z-index: 3;
   display: flex;

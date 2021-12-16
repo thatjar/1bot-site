@@ -267,7 +267,7 @@
         {
           name: "Discord Together",
           description:
-            "(CURRENTLY DISABLED - this command will be re-enabled soon.) You will need to be inside a voice channel for this to work. This command starts a Discord Together game inside the current voice channel.<br />A list of all supported games can be found by running /discord-together or 1help discordtogether.",
+            "You will need to be inside a voice channel for this to work. This command starts a Discord Together game inside the current voice channel.<br />A list of all supported games can be found by running /discord-together or 1help discordtogether.",
           usage: "discordtogether {game}",
           aliases: "dtogether",
         },
@@ -374,11 +374,30 @@
           description:
             "Applies a filter with Discord's blurple colour on the member's avatar. You can also attach an image to use instead of the member's avatar.",
           usage: "blurple [member]",
+          aliases: "blurplify",
         },
         {
           name: "Triggered",
           description: "Creates a triggered GIF with the member's avatar.",
           usage: "triggered [member]",
+        },
+        {
+          name: "Oogway Quote",
+          description: "Generate an image of a quote by Oogway with your text.",
+          usage: "oogwayquote {text}",
+          aliases: "oogway",
+        },
+        {
+          name: "Greyscale",
+          description: "Applies a greyscale filter on a member's avatar.",
+          usage: "greyscale [member]",
+          aliases: "grayscale, blackandwhite",
+        },
+        {
+          name: "Woosh",
+          description: "Creates an image of a joke going over someone's head.",
+          usage: "woosh [member]",
+          aliases: "whoosh, jokeoverhead",
         },
       ],
     },
