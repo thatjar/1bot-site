@@ -267,7 +267,7 @@
         {
           name: "Discord Together",
           description:
-            "You will need to be inside a voice channel for this to work. This command starts a Discord Together game inside the current voice channel.<br />A list of all supported games can be found by running /discord-together or 1help discordtogether.",
+            "You will need to be inside a voice channel for this to work. This command starts a Discord Together game inside the current voice channel. A list of all supported games can be found by running /discord-together or 1help discordtogether.",
           usage: "discordtogether {game}",
           aliases: "dtogether",
         },
