@@ -419,7 +419,7 @@
   <li>
     Full Slash Command support<br />
     You can use Discord's Slash Commands with 1Bot - Slash Commands can be much easier
-    to use than the prefix.
+    to use than the message commands sometimes.
   </li>
 </ul>
 

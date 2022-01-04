@@ -4,7 +4,7 @@
 
 <div class="large-intro">
   <div>
-    <h1 class="config">Meet 1Bot.</h1>
+    <h1 class="config"><span>Meet</span> 1Bot.</h1>
     <i>One bot, several uses.</i>
     <a href="https://dsc.gg/1bot" id="add-1bot" class="config">Add 1Bot</a>
   </div>
@@ -62,16 +62,11 @@
 
   .large-intro h1 {
     font-size: 3em;
+    margin: 15px auto;
   }
 
-  .large-intro h1:after {
-    content: "";
-    display: block;
-    position: relative;
-    top: 5px;
-    height: 5px;
-    background-image: linear-gradient(to bottom right, #ff8f00, #ff6000);
-    border-radius: 10px;
+  .large-intro h1 span {
+    color: #c7c7c7;
   }
 
   .large-intro i {
@@ -81,12 +76,12 @@
   #add-1bot {
     color: black;
     display: block;
-    width: 100px;
+    width: 125px;
     margin: 20px;
     padding: 10px 0;
     text-decoration: none;
-    font-size: 1.25em;
-    background-color: #ff8000;
+    font-size: 1.5em;
+    background-image: linear-gradient(to top right, #ff6600, #ff8800);
     border-radius: 5px;
 
     transition: 300ms;
@@ -116,12 +111,12 @@
     line-height: 1.5em;
     text-align: center;
     justify-content: space-between;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    padding: 15px;
+    width: 220px;
+    height: 190px;
+    margin: 10px 5px;
+    padding: 25px 30px;
     background-color: #292c36;
-    border: 3px solid #ff8000;
+    border: 3px solid #ff7000;
     box-shadow: 0 6px 10px #1c1d24;
   }
 
