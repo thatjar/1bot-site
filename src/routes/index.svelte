@@ -2,19 +2,17 @@
   <title>1Bot - One bot, several uses.</title>
 </svelte:head>
 
-<div class="large-intro">
-  <div>
-    <h1 class="config"><span>Meet</span> 1Bot.</h1>
-    <i>One bot, several uses.</i>
-    <a href="https://dsc.gg/1bot" id="add-1bot" class="config">Add 1Bot</a>
-  </div>
-
-  <img src="/1bot.png" alt="Logo" />
+<div class="intro">
+  <h1 class="outfit">
+    <span class="grey">Meet</span> 1Bot.
+  </h1>
+  <i class="grey">One bot, several uses.</i>
+  <a href="https://dsc.gg/1bot" id="add-1bot" class="outfit">Add 1Bot</a>
 </div>
 
 <div class="features">
   <section class="card">
-    <h2 class="config">Free</h2>
+    <h2 class="outfit">Free</h2>
     <p>
       1Bot is completely free to use for everyone. There are no pay-to-use
       features, or even a requirement to vote!
@@ -22,7 +20,7 @@
   </section>
 
   <section class="card">
-    <h2 class="config">Easy to use</h2>
+    <h2 class="outfit">Easy to use</h2>
     <p>
       If you're familiar with Discord Bots, using 1Bot is a breeze. Slash
       Commands are also fully supported!
@@ -30,7 +28,7 @@
   </section>
 
   <section class="card">
-    <h2 class="config">Multipurpose</h2>
+    <h2 class="outfit">Multipurpose</h2>
     <p>
       1Bot is a truly multipurpose bot, with commands for Moderation, Fun, Image
       Manipulation and a lot more.
@@ -39,38 +37,25 @@
 </div>
 
 <style>
-  .large-intro {
+  .intro {
     display: flex;
-    justify-content: space-evenly;
+    gap: 10px;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap-reverse;
     text-align: center;
   }
 
-  .large-intro > * {
-    margin: 0 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .large-intro img {
-    width: 12vw;
-    min-width: 50px;
-    max-width: 10vw;
-  }
-
-  .large-intro h1 {
+  .intro h1 {
     font-size: 3em;
     margin: 15px auto;
   }
 
-  .large-intro h1 span {
-    color: #c7c7c7;
+  .intro i {
+    font-size: 1.25em;
   }
 
-  .large-intro i {
-    font-size: 1.25em;
+  .grey {
+    color: #d1d1d1;
   }
 
   #add-1bot {
@@ -102,7 +87,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 40px;
+    margin: 40px auto;
   }
 
   .features .card {
@@ -115,8 +100,8 @@
     height: 190px;
     margin: 10px 5px;
     padding: 25px 30px;
-    background-color: #292c36;
-    border: 3px solid #ff7000;
+    background-color: #30333d;
+    border-radius: 15px;
     box-shadow: 0 6px 10px #1c1d24;
   }
 

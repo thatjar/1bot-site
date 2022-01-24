@@ -22,7 +22,7 @@
 
   <footer>
     <main>
-      <h1 class="config">LINKS</h1>
+      <h1 class="outfit">Links</h1>
       <div>
         <a href="/commands">Command List</a>
         <a href="https://top.gg/bot/884080176416309288/vote">Upvote</a>

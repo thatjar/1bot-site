@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: Inter, sans-serif;
   color: white;
   background-color: #252730;
   scroll-behavior: smooth;
@@ -27,8 +28,9 @@ h1 {
   color: #ff8800;
 }
 
-.config {
-  font-family: "Config Rounded", sans-serif;
+.outfit {
+  font-family: Outfit, sans-serif;
+  letter-spacing: 1px;
 }
 
 .command-list li {
@@ -77,11 +79,4 @@ footer a {
   margin: 5px;
   text-decoration: none;
   color: #dddddd;
-}
-
-@font-face {
-  font-family: "Config Rounded";
-  font-style: normal;
-  font-weight: normal;
-  src: url("/config-rounded.otf") format("opentype");
 }

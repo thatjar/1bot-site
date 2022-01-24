@@ -408,7 +408,7 @@
   <title>1Bot - Commands</title>
 </svelte:head>
 
-<h1 class="config">1Bot Commands</h1>
+<h1 class="outfit">1Bot Commands</h1>
 <p>Important things to remember:</p>
 <ul>
   <li>
