@@ -29,6 +29,7 @@
           description:
             "Removes the permissions for a member to send messages in the server or talk in Voice Channels.",
           usage: "mute {@mention/ID/username/nickname} [reason]",
+          aliases: "shut",
           requiredPerms: "Manage messages",
         },
         {
@@ -211,8 +212,8 @@
         {
           name: "Poll",
           description:
-            "Creates a poll for members to vote with reactions. The title/question for the poll should be in double quotes and the options should be separated by slashes.",
-          usage: 'poll "{question}" {options/separated by/slashes}',
+            "Creates a poll for members to vote with reactions. The title/question for the poll should be in double quotes and the options should be separated by slashes. To create a yes/no poll, leave the options blank.",
+          usage: 'poll "{question}" [options/separated/by slashes]',
         },
         {
           name: "NPM",
@@ -279,9 +280,14 @@
         },
         {
           name: "Cat",
-          description: "Get a random Cat image.",
+          description: "Get a random cat image.",
           usage: "cat",
           aliases: "kitty",
+        },
+        {
+          name: "Panda",
+          description: "Get a random panda image.",
+          usage: "panda",
         },
         {
           name: "Bored",
@@ -411,10 +417,7 @@
 <h1 class="outfit">1Bot Commands</h1>
 <p>Important things to remember:</p>
 <ul>
-  <li>
-    Prefix: 1<br />
-    You can add a space after the 1 (optional).
-  </li>
+  <li>Prefix: 1</li>
   <br />
   <li>
     Full Slash Command support<br />

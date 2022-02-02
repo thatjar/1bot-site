@@ -32,7 +32,7 @@
     </main>
 
     <section>
-      <h5>&copy; 2022 OpenSourze</h5>
+      <h5>&copy; {new Date().getFullYear()} OpenSourze</h5>
     </section>
   </footer>
 </main>
