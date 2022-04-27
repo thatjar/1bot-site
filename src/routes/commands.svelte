@@ -33,7 +33,7 @@
           requiredPerms: "Manage messages",
         },
         {
-          name: "Tempmute",
+          name: "Temp mute",
           description:
             "Mutes a member, but temporarily. You'll need to provide how long to mute the member for.",
           usage: "tempmute {@mention/ID/username/nickname} [duration] [reason]",
@@ -54,7 +54,7 @@
           requiredPerms: "View audit log",
         },
         {
-          name: "Delwarn",
+          name: "Delete warn",
           description:
             "Deletes a warning from the member with the Warning ID, which you can get with the 'warnings' command or the message sent by 1Bot when a member is warned.",
           usage: "delwarn [Warning ID] {@mention/ID/username/nickname}",
@@ -62,16 +62,16 @@
           requiredPerms: "View audit log",
         },
         {
+          name: "Clear warns",
+          description: "Deletes all warnings for a member.",
+          usage: "clearwarns {@mention/ID/username/nickname}",
+          requiredPerms: "View audit log",
+        },
+        {
           name: "Warnings",
           description: "Shows the last 15 warnings for a member.",
           usage: "warnings {@mention/ID/username/nickname}",
           aliases: "warns",
-        },
-        {
-          name: "Clearwarns",
-          description: "Deletes all warnings for a member.",
-          usage: "clearwarns {@mention/ID/username/nickname}",
-          requiredPerms: "View audit log",
         },
         {
           name: "Nickname",
@@ -122,7 +122,7 @@
         {
           name: "Clear",
           description:
-            "Deletes the last {amount} messages in the current channel at once.",
+            'Deletes the last "{amount}" messages in the current channel at once. 1Bot cannot clear messages older than 2 weeks.',
           usage: "clear {amount}",
           aliases: "purge",
           requiredPerms: "Manage messages",
@@ -273,6 +273,12 @@
           aliases: "dtogether",
         },
         {
+          name: "xkcd",
+          description:
+            "Get a random xkcd comic. You can also type latest to get the newest comic.",
+          usage: "xkcd [latest]",
+        },
+        {
           name: "Dog",
           description: "Get a random dog image.",
           usage: "dog",
@@ -288,6 +294,11 @@
           name: "Panda",
           description: "Get a random panda image.",
           usage: "panda",
+        },
+        {
+          name: "Penguin",
+          description: "Get a random penguin image.",
+          usage: "penguin",
         },
         {
           name: "Bored",
@@ -335,14 +346,25 @@
         {
           name: "Bean",
           description:
-            "A fake ban command that can be used by anyone. This does not actually ban the member, it is meant to confuse them.",
+            "A fake ban command that can be used by anyone. This does not actually ban the member, it is meant to be a joke command.",
           usage: "bean {member} [reason]",
         },
         {
           name: "Warm",
           description:
-            "A fake warn command that can be used by anyone. This does not actually warn the member, it is meant to confuse them.",
+            "A fake warn command that can be used by anyone. This does not actually warn the member, it is meant to be a joke command.",
           usage: "warm {member} {reason}",
+        },
+        {
+          name: "Slots",
+          description: "Play a simple game of slots.",
+          usage: "slots",
+        },
+        {
+          name: "ASCII",
+          description: "Convert text to ASCII art using Figlet.",
+          usage: "ascii {text}",
+          aliases: "figlet",
         },
       ],
     },
@@ -368,6 +390,13 @@
           description:
             "Adds a \"wasted\" overlay to the member's avatar. You can also attach an image to use instead of a member's avatar.",
           usage: "wasted [member]",
+        },
+        {
+          name: "Mission Passed",
+          description:
+            "Adds a \"mission passed\" overlay to the member's avatar. You can also attach an image to use instead of a member's avatar.",
+          usage: "missionpassed [member]",
+          aliases: "passed",
         },
         {
           name: "Tweet",
@@ -407,6 +436,59 @@
         },
       ],
     },
+    {
+      name: "Miscellaneous",
+      commands: [
+        {
+          name: "Ping",
+          description: "Get the bot's latency.",
+          usage: "ping",
+        },
+        {
+          name: "Invite",
+          description: "Get the bot's invite link.",
+          usage: "invite",
+          aliases: "addbot",
+        },
+        {
+          name: "Changelog",
+          description: "See what's new in the latest version of 1Bot.",
+          usage: "changelog",
+        },
+        {
+          name: "Member Count",
+          description: "View the number of humans and bots in the server.",
+          usage: "membercount",
+          aliases: "members, mem",
+        },
+        {
+          name: "Server Info",
+          description: "Get the server's information.",
+          usage: "serverinfo",
+          aliases: "server, si",
+        },
+        {
+          name: "User Info",
+          description:
+            "Get a member's information. If no member is provided, it will show your own information.",
+          usage: "userinfo [member]",
+          aliases: "user, ui",
+        },
+        {
+          name: "Avatar",
+          description:
+            "Get a member's avatar. If no member is provided, it will show your own avatar.",
+          usage: "avatar [member]",
+          aliases: "av, pfp",
+        },
+        {
+          name: "Suggest",
+          description:
+            "Suggest a feature for the bot. This will be reviewed by the bot owner.",
+          usage: "suggest {feature}",
+        },
+      ],
+    },
   ];
 </script>
 
@@ -415,14 +497,14 @@
 </svelte:head>
 
 <h1 class="outfit">1Bot Commands</h1>
-<p>Important things to remember:</p>
+<p>First, remember:</p>
 <ul>
   <li>Prefix: 1</li>
   <br />
   <li>
     Full Slash Command support<br />
     You can use Discord's Slash Commands with 1Bot - Slash Commands can be much easier
-    to use than the message commands sometimes.
+    to use than the conventional prefixed commands in some cases.
   </li>
 </ul>
 
