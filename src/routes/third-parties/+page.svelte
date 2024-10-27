@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>1Bot - List of Third Parties</title>
+</svelte:head>
+
 <h1>List of Third Parties</h1>
 <ul>
   <li>

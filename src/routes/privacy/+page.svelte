@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>1Bot - Privacy Policy</title>
+</svelte:head>
+
 <h1>1Bot Privacy Policy</h1>
 <h2>Privacy is an inalienable human right, and we respect it.</h2>
 <p>
