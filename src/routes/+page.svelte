@@ -3,35 +3,35 @@
 </svelte:head>
 
 <div class="intro">
-  <h1 class="outfit">
+  <h1>
     <span class="grey">Meet</span> 1Bot.
   </h1>
   <i class="grey">One bot, several uses.</i>
-  <a href="https://dsc.gg/1bot" id="add-1bot" class="outfit">Add 1Bot</a>
+  <a href="https://dsc.gg/1bot" id="add-1bot">Add 1Bot</a>
 </div>
 
 <div class="features">
   <section class="card">
-    <h2 class="outfit">Free</h2>
+    <h2>Free</h2>
     <p>
       1Bot is completely free to use for everyone. There are no pay-to-use
-      features, or even a requirement to vote!
+      features, or any kind of restrictions.
     </p>
   </section>
 
   <section class="card">
-    <h2 class="outfit">Easy to use</h2>
+    <h2>Easy to use</h2>
     <p>
-      If you're familiar with Discord Bots, using 1Bot is a breeze. Slash
-      Commands are also fully supported!
+      If you're familiar with using Discord bots, using 1Bot is a breeze - all
+      commands are simple Slash Commands.
     </p>
   </section>
 
   <section class="card">
-    <h2 class="outfit">Multipurpose</h2>
+    <h2>Multipurpose</h2>
     <p>
-      1Bot is a truly multipurpose bot, with commands for Moderation, Fun, Image
-      Manipulation and a lot more.
+      1Bot has commands ranging from helpful utilities like getting weather
+      information to fun stuff like a pickup line fetcher.
     </p>
   </section>
 </div>
