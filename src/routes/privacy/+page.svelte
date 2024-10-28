@@ -7,8 +7,8 @@
 <p>
   As for 1Bot itself, it does not have any Privileged Gateway Intents (which
   include the Message Content intent) and is technically incapable of reading
-  any messages in any Discord server unless it is @mentioned. It is capable of
-  reading direct messages to it, but it does not log or store any.
+  any messages in any Discord server unless it is @mentioned. It is technically
+  capable of reading direct messages to it, but it does not do so.
 </p>
 
 <h2>The only data we collect</h2>
@@ -24,8 +24,8 @@
 </p>
 <p>
   For some commands that connect to third parties, the data you include in the
-  command will be sent to the third party. A list of third parties that 1Bot
-  connects to can be found <a href="/third-parties">here</a>.
+  command parameters will be sent to the third party. A list of third parties
+  that 1Bot connects to can be found <a href="/third-parties">here</a>.
 </p>
 
 <p>
@@ -39,4 +39,4 @@
 <div style="height: 50px"></div>
 
 <hr />
-<h4>Last updated: 2024-10-27</h4>
+<h4>Last updated: 2024-10-28</h4>

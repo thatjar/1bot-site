@@ -22,8 +22,8 @@
     command which obtains lyrics from Genius
   </li>
   <li>
-    <a href="https://popcat.xyz/api">Pop Cat API</a> - for the "weather" command
-    which returns weather details for a given location
+    <a href="https://popcat.xyz/api">Pop Cat API</a> - for the commands "weather",
+    "quote", and "pickupline"
   </li>
   <li>and Discord itself.</li>
 </ul>
