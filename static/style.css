@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 
+html,
 body {
+  height: 100%;
   font-family: Inter, sans-serif;
   color: white;
   background-color: #252730;
@@ -55,8 +57,10 @@ h2 {
 }
 
 footer {
+  position: sticky;
+  top: 80vh;
   padding: 1rem;
-  margin: -23px;
+  margin: -8px;
   margin-top: 150px;
   background-color: #000;
 }

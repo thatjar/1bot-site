@@ -28,20 +28,5 @@
     <div class="content">
       <slot />
     </div>
-
-    <footer>
-      <main>
-        <h1>Links</h1>
-        <div>
-          <a href="/terms">Terms of Service</a>
-          <a href="/privacy">Privacy Policy</a>
-          <a href="https://github.com/thatjar/1bot">Source (GitHub)</a>
-        </div>
-      </main>
-
-      <section>
-        <h5>&copy; 2024 thatjar</h5>
-      </section>
-    </footer>
   </main>
 {/key}
