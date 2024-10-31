@@ -22,8 +22,12 @@
     command which obtains lyrics from Genius
   </li>
   <li>
-    <a href="https://popcat.xyz/api">Pop Cat API</a> - for the commands "weather",
-    "quote", and "pickupline"
+    <a href="https://popcat.xyz/api">Pop Cat API</a> - for the commands "pickupline"
+    (takes no data), "weather", and "quote" (which take user provided data)
+  </li>
+  <li>
+    <a href="https://icanhazdadjoke.com">icanhazdadjoke</a> - for the "dadjoke" command.
+    Does not take any data.
   </li>
   <li>and Discord itself.</li>
 </ul>
@@ -31,4 +35,4 @@
 <div style="height: 50px;"></div>
 
 <hr />
-<h4>Last updated: 2024-10-27</h4>
+<h4>Last updated: 2024-10-31</h4>
