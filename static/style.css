@@ -11,6 +11,17 @@ body {
   line-height: 1.5em;
 }
 
+a {
+  color: #00eeee;
+}
+
+.add {
+  color: #ff8800;
+}
+
+.light-text {
+  color: #aaaaaa;
+}
 main.page {
   margin: 125px 15px auto;
 }
@@ -18,10 +29,6 @@ main.page {
 .content {
   width: 80%;
   margin: 0 auto;
-}
-
-a {
-  color: #00eeee;
 }
 
 h1 {
@@ -33,18 +40,6 @@ h1 {
 h2 {
   margin: 30px auto;
   font-family: Outfit, sans-serif;
-}
-
-.add {
-  color: #ff8800;
-}
-
-.command-list li {
-  border-bottom: 1px solid #ff7700;
-}
-
-.light-text {
-  color: #aaaaaa;
 }
 
 footer {
