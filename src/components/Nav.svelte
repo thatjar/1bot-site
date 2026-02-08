@@ -1,26 +1,26 @@
 <script>
-  import { onMount } from "svelte";
-  let showMobileMenu = $state(false);
+  import { onMount } from "svelte"
+  let showMobileMenu = $state(false)
 
   const handleMobileIconClick = () => {
-    showMobileMenu = !showMobileMenu;
-  };
+    showMobileMenu = !showMobileMenu
+  }
 
-  const mediaQueryHandler = (e) => {
+  const mediaQueryHandler = e => {
     if (!e.matches) {
-      showMobileMenu = false;
+      showMobileMenu = false
     }
-  };
+  }
 
   onMount(() => {
-    const mediaQuery = window.matchMedia("(max-width: 690px)");
-    mediaQuery.addEventListener("change", mediaQueryHandler);
-  });
+    const mediaQuery = window.matchMedia("(max-width: 690px)")
+    mediaQuery.addEventListener("change", mediaQueryHandler)
+  })
 </script>
 
 <nav>
   <div>
-    <a href="/">
+    <a href="/" aria-label="Home Page">
       <img src="/images/1bot.webp" alt="Logo" height="50" />
     </a>
   </div>

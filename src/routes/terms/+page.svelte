@@ -5,8 +5,8 @@
 <main>
   <h1>1Bot Terms of Service</h1>
   <p>
-    1Bot is an independently run Discord bot which is not affiliated with
-    Discord or any other company.
+    1Bot is an independently run Discord bot not affiliated with Discord or any
+    other company.
   </p>
   <p>
     By using 1Bot, i.e., by using any of its commands or features via Discord,
@@ -25,10 +25,10 @@
 
   <h2>We may use your feedback and inputs to improve 1Bot</h2>
   <p>
-    If you choose to provide us with feedback about 1Bot in any form (including
-    but not limited to sending a suggestion via Discord, opening pull requests
-    or issues on GitHub), you grant us permission to use your input to improve
-    1Bot without any payment to you.
+    If you choose to provide us with feedback or contributions for 1Bot in any
+    form (including but not limited to sending a suggestion via Discord or
+    opening pull requests or issues on GitHub), you grant us permission to use
+    your input to improve 1Bot without any explicit credit or payment to you.
   </p>
 
   <h2>We make use of open-source software to develop 1Bot</h2>
@@ -37,19 +37,16 @@
       >open-source on GitHub</a
     >
     and is licensed under the GNU AGPL v3 License. We retain all intellectual property
-    rights in 1Bot. To build the bot, we incorporate and make use of third-party
+    rights in 1Bot. To build 1Bot, we incorporate and make use of various third-party
     software and services.
   </p>
 
-  <h2>
-    We are not responsible for content that comes from or is created by third
-    parties
-  </h2>
+  <h2>We are not responsible for content that comes from third parties</h2>
   <p>
     1Bot provides content from various third-party sources. We have no control
     over said sources and cannot guarantee that the content is accurate,
-    up-to-date, complete, unharmful or appropriate. We also cannot guarantee how
-    any data that may be sent to a third party is used by them.
+    up-to-date, complete, unharmful or appropriate. Additionally, we have no
+    control over how any data sent to third parties is handled.
   </p>
 
   <h2>We have limited liability</h2>
@@ -67,4 +64,4 @@
 <div style="height: 50px"></div>
 
 <hr />
-<h4>Last updated: 2025-05-02</h4>
+<h4>Last updated: 2026-02-08</h4>
