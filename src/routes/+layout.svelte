@@ -3,22 +3,22 @@
     props: {
       key: page.path,
     },
-  });
+  })
 </script>
 
 <script>
-  import Nav from "../components/Nav.svelte";
-  import { fly } from "svelte/transition";
-  import { cubicIn, cubicOut } from "svelte/easing";
+  import Nav from "../components/Nav.svelte"
+  import { fly } from "svelte/transition"
+  import { cubicIn, cubicOut } from "svelte/easing"
 
-  let { data, children } = $props();
+  let { data, children } = $props()
 
-  const duration = 300;
-  const delay = duration + 100;
-  const y = 10;
+  const duration = 300
+  const delay = duration + 100
+  const y = 10
 
-  const transitionIn = { easing: cubicOut, y, duration, delay };
-  const transitionOut = { easing: cubicIn, y: -y, duration };
+  const transitionIn = { easing: cubicOut, y, duration, delay }
+  const transitionOut = { easing: cubicIn, y: -y, duration }
 </script>
 
 <Nav />
