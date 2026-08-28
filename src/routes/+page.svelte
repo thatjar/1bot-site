@@ -74,14 +74,23 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 40px 0;
+    position: relative;
+    margin-top: -30px;
+    isolation: isolate;
+  }
+
+  .intro::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
     background-image: url("/images/1botbg.png");
     background-repeat: space;
     background-size: auto;
     background-attachment: fixed;
-    padding: 40px 0;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-    margin-top: -30px;
   }
 
   .intro h1 {
@@ -136,6 +145,7 @@
   .features .card {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
     line-height: 1.5em;
     justify-content: center;
     text-align: center;
